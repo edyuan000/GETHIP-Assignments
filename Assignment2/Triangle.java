@@ -13,7 +13,7 @@ public class Triangle extends Shape implements Printable{
 	//overrides area method and returns area
 	@Override
 	public double getArea(){
-		return (b*h)/2;
+		return (base*height)/2;
 	}
 
 	//overrides print description

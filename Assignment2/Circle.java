@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Circle extends Shape implements Printable{
 	
 	private int radius;
@@ -11,7 +13,7 @@ public class Circle extends Shape implements Printable{
 	//returns the area of circle
 	@Override
 	public double getArea(){
-		return Math.pi()*Math.pow(radius,2);
+		return Math.PI*Math.pow(radius,2);
 	}
 
 	//prints description for circle

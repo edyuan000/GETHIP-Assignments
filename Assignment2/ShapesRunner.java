@@ -12,10 +12,12 @@ public class ShapesRunner{
 
 		//loop through each shape in shapes
 		for(Shape s : shapes){
-			System.out.println("Calculating " + s.getShapeName() + "area:");
-			System.out.println("Area = " + s.getArea());
+			System.out.println("Calculating " + s.getShapeName() + " area:");
+			System.out.print("Area = ");
+			System.out.printf("%.1f%n", s.getArea());
 			System.out.println("Printing " + s.getShapeName() + " description:");
 			s.printDescription();
+			System.out.println("\n");
 		}
 	}
 }
